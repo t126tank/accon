@@ -52,7 +52,7 @@ RUN \
 RUN \
   apt-get update && apt-get install -y python3 python3-pip python3-dev && \
     pip3 install --upgrade pip && \
-    pip3 install virtualenv virtualenvwrapper circus
+    pip3 install virtualenv virtualenvwrapper circus django gunicorn
 
 ## Nodejs & coffee-script
 RUN \
